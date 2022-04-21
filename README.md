@@ -60,13 +60,12 @@
     <div class="footer-col">
       <span>2022</span>
     </div>
-    
-  </div>
-</footer>
-</body>
-	<script>
+    <script>
 $('.nav-toggle').on('click', function(){
   $('#menu').toggleClass('active');
 });
 </script>
+  </div>
+</footer>
+</body>	
 </html>
