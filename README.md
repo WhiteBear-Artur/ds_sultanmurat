@@ -8,12 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script>
-$('.nav-toggle').on('click', function(){
-  $('#menu').toggleClass('active');
-});
-</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>  
 </head>
 <body>
 <header>
@@ -69,4 +64,9 @@ $('.nav-toggle').on('click', function(){
   </div>
 </footer>
 </body>
+	<script>
+$('.nav-toggle').on('click', function(){
+  $('#menu').toggleClass('active');
+});
+</script>
 </html>
