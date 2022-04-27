@@ -3,7 +3,7 @@
    padding: 0;
    margin: 0;
    transition: .5s ease-in-out;
-   /* добавим плавность переходов для всех элементов страницы*/
+
 }
 ul {
    list-style: none;
@@ -29,13 +29,13 @@ body {
    color: #373737;
    background: #f7f7f7;
 }
-/* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
+
 header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
    content: "";
    display: table;
    clear: both;
 }
-/* стилевой класс, который управляет шириной контейнера сетки*/
+
 .container {
    margin: 0 auto;
    width: 100%;
@@ -52,7 +52,7 @@ header {
    margin-bottom: 30px;
    position: relative;
 }
-/* логотип */
+
 .logo {
    display: block;
    float: left;
@@ -71,7 +71,7 @@ header {
    text-shadow: 2px 2px 1px rgba(0, 0, 0, .4);
 }
 
-/* меню */
+
 #menu {
    float: right;
 }
@@ -94,7 +94,7 @@ header {
    margin-right: 0;
 }
 
-/* кнопка переключения меню, появляющаяся при ширине 768px */
+
 .nav-toggle {
    display: none;
    position: relative;
@@ -129,19 +129,19 @@ header {
 .nav-toggle span:after {
    bottom: -10px;
 }
-/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
+
 #menu.active {
    max-height: 123px;
 }
 
 
-/* левый контейнер */
+
 .posts-list {
    margin-bottom: 30px;
    width: 64%;
    float: left;
 }
-/* блок для статьи */
+
 .post {
    margin-bottom: 35px;
 }
@@ -163,7 +163,7 @@ header {
    margin-bottom: 12px;
    font-size: 26px;
 }
-/* блок с кнопкой "продолжить чтение" и кнопками социальных сетей */
+
 .post-footer {
    border-top: 1px solid #EBEBE3;
    border-bottom: 1px solid #EBEBE3;
@@ -217,12 +217,12 @@ header {
    border: 1px solid;
 }
 
-/* правый контейнер */
+
 aside {
    width: 33%;
    float: right;
 }
-/* блок для виджетов */
+
 .widget {
    padding: 20px 15px;
    background: white;
@@ -284,14 +284,14 @@ footer {
 }
 
 @media (max-width: 768px) {
-   /* показываем кнопку для переключения верхней навигации */
+
    .nav-toggle {
       display: block;
    }
    header {
       padding: 10px 0;
    }
-   /* скрываем верхнее меню, отменяем обтекание, позиционируем его, сместив на высоту шапки сайта */
+
    #menu {
       max-height: 0;
       background: white;
@@ -305,14 +305,14 @@ footer {
       padding: 0;
       z-index: 3;
    }
-   /* делаем элементы списка блочными, чтобы они располагались друг под другом */
+
    #menu li {
       display: block;
       text-align: center;
       border-bottom: 1px solid #EBEBE3;
       margin-right: 0;
    }
-   /* отменяем обтекание левой и правой колонок, устанавливаем им ширину 100%*/
+
    .posts-list, aside {
       width: 100%;
       float: none;
@@ -323,7 +323,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-   /* отменяем обтекание для логотипа и выравниваем по центру*/
+
    .logo {
       float: none;
       margin: 0 auto 15px;
@@ -333,18 +333,18 @@ footer {
    .logo span {
       margin: 0 2px;
    }
-   /* позиционируем меню на увеличившуюся высоту шапки */
+
    #menu {
       top: 118px;
    }
 
-   /* убираем верхнюю и нижнюю границы и выравниваем кнопку по центру */
+
    .post-footer {
       border-top: none;
       border-bottom: none;
       text-align: center;
    }
-   /* отменяем позиционирование кнопок соцсетей */
+
    .post-social {
       position: static;
       text-align: center;
@@ -354,7 +354,7 @@ footer {
    .widget-post-title {
       font-size: 1.2em;
    }
-   /* отменяем обтекание для столбцов подвала страницы */
+
    .footer-col {
       float: none;
       margin-bottom: 20px;
