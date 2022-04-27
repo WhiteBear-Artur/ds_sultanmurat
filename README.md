@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru-RU">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,14 +14,14 @@
 <header>
     <nav class="container">
       <a class="logo" href="">
-        Филиал муниципального бюджетного общеобразовательного учреждения Средняя общеобразовательная школа д.Курманаево муниципального района Аургазинский район Республики Башкортостан «Детский сад с.Султанмуратово"
+        Филиал муниципального бюджетного общеобразовательного учреждения Средняя общеобразовательная школа д.Курманаево «Начальная школа - детский сад с.Султанмуратово» муниципального района Аургазинский район Республики Башкортостан
       </a>
       <div class="nav-toggle"><span></span></div>
       <ul id="menu">
         <li><a href="./index.html">Детский сад</a></li>
         <li><a href="./time.html">Распорядок дня</a></li>
         <li><a href="./teacher.html">Педагоги</a></li>
-		<li><a href="./address.html">Адрес</a></li>
+		<li><a href="./address.html">Контакты</a></li>
         <li><a href="./doc.html">Нормативные документы</a></li>        
       </ul>
     </nav>
@@ -29,27 +29,22 @@
   <div class="container">
   <div class="posts-list">
     <article id="post-1" class="post">
-      <div class="post-image"><a href=""><img src="./DS.jpeg"></a></div>
+      <div class="post-image"><a href=""><img src="./DS.jpg"></a></div>
       <div class="post-content">
-        <h2 class="post-title">Детский сад</h2>
-        <p>Детский садик с. Султанмуратово расположен в живописном месте</p>
+        <h1 class="post-title">Уважаемые коллеги, родители и гости сайта!</h1>
+        <p>Мы рады приветствовать Вас на официальном  сайте филиала МДОУ СОШ НШ детский сад с. Султанмуратово Аургазинского района.
+           Здесь Вы можете подробно познакомиться с документацией детского сада, нормативными, правоустанавливающими документами, педагогическим составом детского сада, а также всеми сферами жизни и деятельности дошкольного сообщества.
+		   </p>
         </div>      
-    </article>
-    <article id="post-2" class="post">
-      <div class="post-image"><a href=""><img src="./TER.jpeg"></a></div>
-      <div class="post-content">
-        <h2 class="post-title">Детская площадка</h2>
-        <p>На территории расположена игровая площадка и веранда</p>        
-        </div>	   
-          </article>	
+    </article>   	
   </div> <!-- конец div class="posts-list"-->
   <aside>
   <div class="widget">
     <h3 class="widget-title">Категории</h3>
     <ul class="widget-category-list">
-      <li><a href=".\news.html">Новости</a></li>
-      <li><a href=".\events.html">Мероприятия</a></li>
-      <li><a href=".\study.html">Обучение</a></li>
+      <li><a href="./news.html">Новости</a></li>
+      <li><a href="./events.html">Мероприятия</a></li>
+      <li><a href="./study.html">Обучение</a></li>
     </ul>
   </div>  
 </aside>
@@ -58,15 +53,21 @@
   <div class="container">
     <div class="footer-col"><span>Детский сад с.Султанмуратово</span></div>
     <div class="footer-col">
-      <span>2022</span>
-    </div>
-    
+	<span>
+    <a href="https://edu-rb.ru" target="_blank">Электронная очередь в детские сады<br>Республики Башкортостан</a>
+	</span>
+	</div>
+	<div class="footer-col">
+	<span>
+    <a href="https://education.bashkortostan.ru" target="_blank">Министерство образования и науки Республики Башкортостан</a>
+	</span>
+	</div>
   </div>
 </footer>
+</body>
 <script>
 $('.nav-toggle').on('click', function(){
   $('#menu').toggleClass('active');
 });
 </script>
-</body>	
 </html>
